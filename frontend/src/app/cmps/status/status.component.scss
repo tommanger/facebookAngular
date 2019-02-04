@@ -1,0 +1,43 @@
+.status-header{
+    display: flex;
+    align-items: center;
+    border: 2px solid #a163f5;
+    margin: 10px 10px 0 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom: none;
+    p{
+        margin-left: 10px;
+    }
+    img{
+        margin-left: 10px;
+        height: 35px;
+    }
+}
+.status-btns{
+    border: 2px solid #a163f5;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin: 0 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    span{
+        font-size: 25px;
+        color: #a163f5;
+    }
+    button{
+        background: none;
+        border: 0;
+        color: #a163f5;
+        font-weight: bold;
+        margin: 0 5px;
+        font-size: 17px;
+        transition: all .3s;
+    }
+    button:hover{
+        cursor: pointer;
+        color: #4903ac;
+    }
+}

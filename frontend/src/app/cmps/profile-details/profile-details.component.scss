@@ -1,0 +1,50 @@
+img{
+    height: 170px;
+    margin: 10px;
+}
+.details{
+    border: 2px solid #a163f5;
+    border-radius: 8px;
+    margin: 10px;
+
+}
+.more-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    outline: none;
+
+    h2{
+        margin: 10px;
+    }
+    span{
+        color: #a163f5;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    button{
+        background: none;
+        outline: none;
+        border: 0;
+        color: #a163f5;
+        font-weight: bold;
+        margin: 0 5px;
+        font-size: 17px;
+        transition: all .3s;
+    }
+    button:hover{
+        cursor: pointer;
+        color: #4903ac;
+    }
+    .add-friend-btn{
+        color: white;
+        background-color: #a163f5;
+        border-radius: 8px;
+        padding: 5px;
+    }
+    .add-friend-btn:hover{
+        cursor: pointer;
+        color: white;
+        background-color: #4903ac;
+    }
+}
